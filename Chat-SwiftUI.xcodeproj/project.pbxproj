@@ -13,6 +13,9 @@
 		361C61F92495352A0011CF41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361C61F82495352A0011CF41 /* Assets.xcassets */; };
 		361C61FC2495352A0011CF41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361C61FB2495352A0011CF41 /* Preview Assets.xcassets */; };
 		361C61FF2495352A0011CF41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361C61FD2495352A0011CF41 /* LaunchScreen.storyboard */; };
+		361C6209249552C60011CF41 /* LoginField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C6208249552C60011CF41 /* LoginField.swift */; };
+		361C620B249553390011CF41 /* selectedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C620A249553390011CF41 /* selectedState.swift */; };
+		361C620D24955CF60011CF41 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C620C24955CF60011CF41 /* SignUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		361C61FB2495352A0011CF41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		361C61FE2495352A0011CF41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		361C62002495352A0011CF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361C6208249552C60011CF41 /* LoginField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginField.swift; sourceTree = "<group>"; };
+		361C620A249553390011CF41 /* selectedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedState.swift; sourceTree = "<group>"; };
+		361C620C24955CF60011CF41 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,7 @@
 			children = (
 				361C61F2249535270011CF41 /* AppDelegate.swift */,
 				361C61F4249535270011CF41 /* SceneDelegate.swift */,
-				361C61F6249535270011CF41 /* ContentView.swift */,
+				361C6206249552700011CF41 /* Login&RegisterScreen */,
 				361C61F82495352A0011CF41 /* Assets.xcassets */,
 				361C61FD2495352A0011CF41 /* LaunchScreen.storyboard */,
 				361C62002495352A0011CF41 /* Info.plist */,
@@ -73,6 +79,33 @@
 				361C61FB2495352A0011CF41 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		361C6206249552700011CF41 /* Login&RegisterScreen */ = {
+			isa = PBXGroup;
+			children = (
+				361C61F6249535270011CF41 /* ContentView.swift */,
+				361C620A249553390011CF41 /* selectedState.swift */,
+				361C620E24955CFE0011CF41 /* SignUp */,
+				361C6207249552730011CF41 /* LoginScreen */,
+			);
+			path = "Login&RegisterScreen";
+			sourceTree = "<group>";
+		};
+		361C6207249552730011CF41 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				361C6208249552C60011CF41 /* LoginField.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		361C620E24955CFE0011CF41 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				361C620C24955CF60011CF41 /* SignUp.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361C6209249552C60011CF41 /* LoginField.swift in Sources */,
+				361C620D24955CF60011CF41 /* SignUp.swift in Sources */,
 				361C61F3249535270011CF41 /* AppDelegate.swift in Sources */,
+				361C620B249553390011CF41 /* selectedState.swift in Sources */,
 				361C61F5249535270011CF41 /* SceneDelegate.swift in Sources */,
 				361C61F7249535270011CF41 /* ContentView.swift in Sources */,
 			);
